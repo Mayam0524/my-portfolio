@@ -1,0 +1,118 @@
+:root {
+    --primary-color: #c5ecea;
+    --secondary-color: #FFD3D6;
+    --font-color: #6ec9c3;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+body {
+    text-align: center;
+    margin: 100px auto;
+}
+
+.navbar {
+    background-color: var(--secondary-color);
+}
+
+.navbar-brand {
+    color: var(--font-color);
+}
+
+h1,
+h2 {
+    font-family: 'Gentium Book Plus', serif;
+}
+
+.accent {
+    color: var(--font-color);
+}
+
+h1 {
+    font-size: 85px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3, 
+p {
+    font-family: 'Overpass', sans-serif;
+}
+
+h3 {
+    opacity: 50%;
+    font-weight: bold;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: black;
+    border-radius: 4px;
+    background-color: var(--primary-color);
+    padding: 10px;
+    box-shadow: var(--box-shadow);
+    
+}
+
+.btn{
+    border-radius: 4px;
+    background-color: var(--primary-color);
+    padding: 10px;
+    box-shadow: var(--box-shadow);
+}
+
+a:hover {
+    color: black;
+    background-color: var(--secondary-color);
+}
+
+
+section {
+    background-color: var(--secondary-color);
+    padding: 80px;
+}
+
+img {
+    width: 400px;
+    border-radius: 4px;
+    padding: 18px;
+    background-color: #FFB5C7;
+}
+
+.email {
+    color: var(--font-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.src {
+    text-align: center;
+    width: 10%;
+}
+
+.col-4 {
+    font-size: 25px;
+    border-radius: 30px;
+    background-color: var(--primary-color);
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.icon {
+    color: black;
+    font-size: 28px;
+    text-align: center;
+    padding: 12px 20px 12px 20px;
+    border-radius: 30px;
+    background-color: var(--primary-color);
+}
+
