@@ -1,14 +1,16 @@
 :root {
     --primary-color: #c5ecea;
-    --secondary-color: #FFD3D6;
-    --font-color: #6ec9c3;
+    --secondary-color: #ced9db;
+    --font-color: #5dc2bb;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 
 body {
+    background-image: url("src/white.jpg");
     text-align: center;
     margin: 100px auto;
+    margin-bottom: 50px;
 }
 
 .navbar {
@@ -42,8 +44,26 @@ p {
 }
 
 h3 {
-    opacity: 50%;
+    opacity: 55%;
     font-weight: bold;
+}
+
+p {
+    color: gray;
+    font-size: 20px;
+}
+
+.navigation-links {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.navigation-links a {
+    margin: 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform: capitalize;
 }
 
 .contact-link {
@@ -51,7 +71,7 @@ h3 {
     color: black;
     border-radius: 4px;
     background-color: var(--primary-color);
-    padding: 10px;
+    padding: 15px;
     box-shadow: var(--box-shadow);
     
 }
@@ -59,7 +79,7 @@ h3 {
 .btn{
     border-radius: 4px;
     background-color: var(--primary-color);
-    padding: 10px;
+    padding: 15px;
     box-shadow: var(--box-shadow);
 }
 
@@ -72,16 +92,18 @@ a:hover {
 section {
     background-color: var(--secondary-color);
     padding: 80px;
+    border-radius: 30px;
 }
 
 img {
     width: 400px;
     border-radius: 4px;
     padding: 18px;
-    background-color: #FFB5C7;
+    background-color: var(--primary-color);
 }
 
 .email {
+    font-size: 20px;
     color: var(--font-color);
     text-decoration: none;
     font-weight: bold;
