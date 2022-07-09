@@ -116,6 +116,15 @@ img {
     background-color: var(--primary-color);
 }
 
+@media (max-width:576px) {
+    img {
+        width: 280px;
+    }
+    .pic {
+        padding-bottom: 30px;
+    }
+}
+
 .email {
     font-size: 20px;
     color: var(--font-color);
