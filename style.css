@@ -52,6 +52,11 @@ h3 {
     font-weight: bold;
 }
 
+.arrow {
+    color: black;
+    font-size: 30px;
+}
+
 p {
     color: gray;
     font-size: 22px;
@@ -145,7 +150,26 @@ img {
 }
 
 .top {
-    color: var(--font-color);
+    color: var(--primary-color);
     font-weight: bold;
     position: relative;
+}
+
+footer {
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    color: gray;
+}
+
+.open-source {
+    color: var(--font-color);
+    font-weight: bold;
+}
+
+#contact-section {
+    padding: 20px;
+    border-radius: 30px;
+    background-color: var(--primary-color);
+    font-family: 'Gentium book plus', serif;
+    margin-bottom: 60px;
 }
