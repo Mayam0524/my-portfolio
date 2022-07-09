@@ -1,13 +1,13 @@
 :root {
     --primary-color: #c5ecea;
-    --secondary-color: #ced9db;
-    --font-color: #5dc2bb;
-    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    --secondary-color: #cfd8da;
+    --font-color: #54bdb6;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
 }
 
 
 body {
-    background-image: url("src/white.jpg");
+    background-image: url("src/clouds.jpg");
     text-align: center;
     margin: 100px auto;
     margin-bottom: 50px;
@@ -21,13 +21,13 @@ body {
     color: var(--font-color);
 }
 
-h1,
-h2 {
-    font-family: 'Gentium Book Plus', serif;
-}
-
 .accent {
     color: var(--font-color);
+}
+
+h1, 
+h2 {
+    font-family: 'Gentium Book Plus', serif;
 }
 
 h1 {
@@ -36,6 +36,10 @@ h1 {
 
 h2 {
     font-size: 40px;
+}
+
+.greeting {
+    font-family: 'Overpass', sans-serif;
 }
 
 h3, 
@@ -50,7 +54,7 @@ h3 {
 
 p {
     color: gray;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .navigation-links {
@@ -85,7 +89,7 @@ p {
 
 a:hover {
     color: black;
-    background-color: var(--secondary-color);
+    background-color: transparent;
 }
 
 
@@ -93,6 +97,7 @@ section {
     background-color: var(--secondary-color);
     padding: 80px;
     border-radius: 30px;
+    margin: 18px;
 }
 
 img {
@@ -136,5 +141,11 @@ img {
     padding: 12px 20px 12px 20px;
     border-radius: 30px;
     background-color: var(--primary-color);
+    box-shadow: var(--box-shadow);
 }
 
+.top {
+    color: var(--font-color);
+    font-weight: bold;
+    position: relative;
+}
