@@ -1,6 +1,6 @@
 :root {
     --primary-color: #c5ecea;
-    --secondary-color: #cfd8da;
+    --secondary-color: #dbe4e6;
     --font-color: #54bdb6;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
 }
@@ -28,6 +28,7 @@ body {
 h1, 
 h2 {
     font-family: 'Gentium Book Plus', serif;
+    color: #424347;
 }
 
 h1 {
@@ -77,7 +78,7 @@ p {
 
 .contact-link {
     text-decoration: none;
-    color: black;
+    color: #424347;
     border-radius: 4px;
     background-color: var(--primary-color);
     padding: 15px;
@@ -86,6 +87,7 @@ p {
 }
 
 .btn{
+    color: #424347;
     border-radius: 4px;
     background-color: var(--primary-color);
     padding: 15px;
