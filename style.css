@@ -123,6 +123,9 @@ img {
     .pic {
         padding-bottom: 30px;
     }
+    .col-md-4 {
+        margin-top: 18px;
+    }
 }
 
 .email {
