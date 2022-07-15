@@ -182,10 +182,34 @@ footer {
     font-weight: bold;
 }
 
-#contact-section {
+.contact-section {
     padding: 20px;
     border-radius: 30px;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     font-family: 'Gentium book plus', serif;
     margin-bottom: 60px;
+    box-shadow: var(--box-shadow);
+}
+
+.inquiry {
+    text-decoration: none;
+    color: #424347;
+    border-radius: 4px;
+    background-color: var(--primary-color);
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.contacts {
+    font-family: 'Overpass', sans-serif;
+    text-decoration: none;
+    color: gray;
+    font-size: 22px;
+}
+
+@media (min-width:576px) {
+    .contact-section {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
 }
